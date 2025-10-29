@@ -23,7 +23,7 @@ jobs:
 
     - name: Checkout SAIL
       run: |
-        git clone git@github.com:ineol/sail.git
+        git clone https://github.com/ineol/sail.git
         git checkout push-nxxnuzwvnvuy
 
     - name: System dependencies (ubuntu)
